@@ -4,6 +4,20 @@
     margin-right: auto;
 }
 
+.recipe-contents {
+    margin: auto;
+    width: 950px;
+    border-style: groove;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.desc-paragraph {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .recipe-links {
     height: 250px;
     width: 250px;
@@ -29,8 +43,21 @@
     padding: 15px;
 }
 
+.topnav {
+    margin:auto;
+    text-align: center;
+    border-style: groove;
+    border-radius: 20px;
+    padding-top: 20px;
+    height: 50px;
+    width: 100px;
+    background-color:white;
+}
+
 html {
     height: 100%;
+    background-image: url("../pics/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 body {
@@ -39,11 +66,23 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Charis SIL', serif;
-    background: linear-gradient(0deg, rgba(225,190,146,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 h1 {
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    padding-left: 25px;
+}
+
+ol {
+    padding-left: 25px;
+    padding-right: 10px;
 }
 
 .body-content {
