@@ -4,10 +4,52 @@
     margin-right: auto;
 }
 
+.recipe-links {
+    height: 250px;
+    width: 250px;
+    border-style: groove;
+    border-color: #5C4120;
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    align-self: center;
+}
+
+.grid-ramen-pict {
+    padding: 15px;
+}
+
+.grid-applepie-pict {
+    padding: 15px;
+}
+
+.grid-cheesecake-pict {
+    padding: 15px;
+}
+
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Charis SIL', serif;
+    background: linear-gradient(0deg, rgba(225,190,146,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 h1 {
     text-align: center;
+}
+
+.body-content {
+    margin: auto;
+    width: 860px;
+    border-style: groove;
+    border-radius: 5px;
+    background-color: white;
 }
