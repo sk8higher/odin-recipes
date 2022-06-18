@@ -55,8 +55,8 @@
 }
 
 html {
-    height: 100%;
-    background-image: url("../pics/bg.jpg") no-repeat center center fixed;
+    background-image: url("../pics/bg.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
