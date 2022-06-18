@@ -1,2 +1,2 @@
 # odin-recipes
-odin project
+Simple project, showing off basic HTML skills.
